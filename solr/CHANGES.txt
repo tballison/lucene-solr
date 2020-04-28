@@ -165,6 +165,8 @@ Other Changes
 * SOLR-13893: BlobRepository reads max jar size from `runtime.lib.size` system property. Old `runtme.lib.size` is Deprecated
   (Erick Erickson, Kesharee Nandan Vishwakarma, Munendra S N)
 
+* SOLR-14439: Upgrade Tika to 1.24.1 (Tim Allison)
+
 * SOLR-14367: Upgrade Tika to 1.24 (Mibo via Erick Erickson)
 
 * SOLR-14351: Hardened MDC logging; sometimes info was absent (David Smiley)

@@ -50,6 +50,7 @@ dependencies {
   implementation ('org.apache.xmlbeans:xmlbeans') { transitive = false }
   implementation ('org.apache.commons:commons-collections4') { transitive = false }
   implementation ('com.github.virtuald:curvesapi') { transitive = false }
+  implementation ('com.zaxxer:SparseBitSet') { transitive = false }
   implementation ('org.ccil.cowan.tagsoup:tagsoup') { transitive = false }
   implementation ('com.googlecode.mp4parser:isoparser') { transitive = false }
   implementation ('org.aspectj:aspectjrt') { transitive = false }
@@ -62,7 +63,10 @@ dependencies {
   implementation ('org.tukaani:xz') { transitive = false }
   implementation ('com.adobe.xmp:xmpcore') { transitive = false }
   implementation ('com.pff:java-libpst') { transitive = false }
+  implementation ('org.tallison:isoparser') { transitive = false }
   implementation ('org.tallison:jmatio') { transitive = false }
+  implementation ('org.tallison:metadata-extractor') { transitive = false }
+  implementation ('org.tallison.xmp:xmpcore-shaded') { transitive = false }
   implementation ('com.epam:parso') { transitive = false }
   implementation ('org.brotli:dec') { transitive = false }
   implementation ('xerces:xercesImpl') { transitive = false }
